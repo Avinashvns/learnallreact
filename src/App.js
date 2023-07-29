@@ -6,6 +6,8 @@ import VsjFrom from './components/VsjForm';
 // import VsjItem from './components/VsjItem';
 // import VsjWrapper from './components/VsjWrapper';
 
+import EventTarget from './components/EventTarget';
+
 function App() {
   return (
     <div className="App">
@@ -18,10 +20,13 @@ function App() {
       {/* <VsjWrapper>Hello Wrapper</VsjWrapper> */}
 
       {/* <VsjFrom></VsjFrom> */}
-      <h1>Form</h1>
+      {/* <h1>Form</h1>
       <VsjFrom></VsjFrom>
 	    <h1>Multiple</h1>
-	    <MultipleObject></MultipleObject>
+	    <MultipleObject></MultipleObject> */}
+      <h1>Target Event</h1>
+      <br/>
+      <EventTarget></EventTarget>
       </div>
   );
 }
