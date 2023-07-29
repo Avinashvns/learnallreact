@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import VsjCounter from './VjsCounter';
 import VsjItem from './components/VsjItem';
 import VsjWrapper from './components/VsjWrapper';
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <div className="App">
       Avinash
+      <VsjCounter />
       <img src='varanasi.jpg'/>
       {/* <VsjItem /> */}
       <VsjItem message='This is a children'></VsjItem>
