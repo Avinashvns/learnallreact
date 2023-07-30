@@ -8,6 +8,7 @@ import VsjFrom from './components/VsjForm';
 import VsjExpenseCalculator from './components/VsjExpenseCalculator';
 
 import EventTarget from './components/EventTarget';
+import LearnState from './components/LearnState';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
     //   </div>
     <div class="container pt-5 bg-primary text-white text-center" id="root">
       <div class="row">
-        <div class="col-lg-1"></div>
+        <div class="col-lg-1"><LearnState></LearnState></div>
         <div class="col-lg-10 bg-danger">
           <VsjExpenseCalculator></VsjExpenseCalculator>
 
