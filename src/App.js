@@ -9,6 +9,7 @@ import VsjExpenseCalculator from './components/VsjExpenseCalculator';
 
 import EventTarget from './components/EventTarget';
 import LearnState from './components/LearnState';
+import VsjWeather from './components/VsjWeather';
 
 function App() {
   return (
@@ -37,7 +38,7 @@ function App() {
           <VsjExpenseCalculator></VsjExpenseCalculator>
 
         </div>
-        <div class="col-lg-1"></div>
+        <div class="col-lg-1"><VsjWeather></VsjWeather></div>
       </div>
 
     </div>
